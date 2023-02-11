@@ -5,63 +5,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Odin Landing Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="body">
         <!--  Navbar -->
         <nav class="navbar">
-            <div class="logo"></div>
-            <ul class="links">
-                <li>Home</li>
-                <li>Services</li>
-                <li>Contact</li>
-            </ul>
+            <div class="container">
+                <div class="logo">፩ Ahadu</div>
+                <ul class="links">
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Services</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <!-- Header / Hero -->
         <header class="header">
-            <div class="hero-text">
-                <div class="hero-header"></div>
-                <p></p>
-                <button>Contact Us</button>
+            <div class="container">
+                <div class="hero-text">
+                    <div class="hero-header">Affordable Professional Websites</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, hic. Adipisci, nostrum eos id nisi minima odio aspernatur quisquam deserunt repellendus.</p>
+                    <button>Contact Us</button>
+                </div>
+                <img src="imgs/web-dev.svg" alt="">
             </div>
-            <img src="" alt="">
         </header>
         <!-- Services -->
         <section class="services">
-            <div class="services-header"></div>
-            <div class="services-list">
-                <div class="service">
-                    <div class="service-img"></div>
-                    <p class="service-text"></p>
+            <div class="container">
+                <div class="services-header">Services</div>
+                <div class="services-list">
+                    <div class="service">
+                        <img src="imgs/html5.svg" alt="" class="service-img">
+                        <p class="service-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="service">
+                        <img src="imgs/css3.svg" alt="" class="service-img">
+                        <p class="service-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="service">
+                        <img src="imgs/javascript.svg" alt="" class="service-img">
+                        <p class="service-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="service align">
+                        <img src="imgs/seo.svg" alt="" class="service-img">
+                        <p class="service-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- Quote -->
         <section class="quote">
-            <div class="quote-text"></div>
-            <div class="auth"></div>
+            <div class="container">
+                <div class="quote-text">"Search Engine Optimization is no longer about stuffing keywords and attempting to trick Google into ranking your website. It's about creating a user experience that is data driven. We know what customers are searching for and we know how to get them to a page. It's a combination of science and art tosuccessfully rank a website."</div>
+                <div class="auth">- Leland Dieno</div>
+            </div>
         </section>
         <!-- Contact Us-->
         <section class="contact-us">
-            <div class="contact-title"></div>
-            <form action="#" class="contact">
-                <label for="name">
-                    <input type="text">
-                </label>
-                <label for="email">
-                    <input type="email">
-                </label>
-                <label for="message">
-                    <input type="text">
-                </label>
-                <button>Send</button>
-            </form>
+            <div class="container">
+                <div class="contact-title">Contact Us</div>
+                <form action="#" class="contact">
+                    <div class="info">
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                                <input type="email">
+                    </div>
+                    </div>
+                    <div class="subject">
+                        <label for="email">Subject:</label>
+                        <input type="text">
+                    </div>
+                    <div class="message">
+                        <label for="message">Message:</label>
+                        <textarea name="" id=""></textarea>
+                        
+                        <button>Send</button>
+                    </div>
+                </form>
+            </div>
         </section>
         <!-- Footer -->
         <footer class="footer">
-            Copyright &copy; Amanuel Haile 2023
+            Copyright &copy; The Odin Project 2023
         </footer>
     </div>
 </body>
