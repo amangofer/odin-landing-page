@@ -96,3 +96,38 @@
     font-weight: bold;
     align-self: flex-start;
 }
+
+/* Services */
+
+.services .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.services-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 20px;
+}
+.services-list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.service {
+    height: auto;
+    width: auto;
+    padding: 30px;
+}
+
+.align {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
