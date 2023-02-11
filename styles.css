@@ -161,3 +161,81 @@
     font-size: 24px;
     font-weight: bold;
 }
+
+/* contact us*/
+
+.contact-us .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.contact-title {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 40px;
+    color: #E5E7EB;
+}
+.contact input {
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+}
+.info {
+    display:flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.info div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.subject {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.subject input{
+    width: 100%;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.message textarea {
+    height: 150px;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact button {
+    align-self: flex-end;
+    border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
